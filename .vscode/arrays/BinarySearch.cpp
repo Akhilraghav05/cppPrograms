@@ -13,12 +13,7 @@ printf("\nElements are\n");
 for(i=0;i<arr.length;i++)
 printf("%d ",arr.A[i]);
 }
-void swap(int *x,int *y)
-{
-int temp=*x;
-*x=*y;
-*y=temp;
-}
+
 int BinarySearch(struct Array arr,int key)
 {
 int l,mid,h;
