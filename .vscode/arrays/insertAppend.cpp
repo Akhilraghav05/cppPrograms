@@ -22,7 +22,7 @@ void insert(struct Array *arr ,int index,int y){
     if(index >=0 && index<=arr->length){
   for(int i=arr->length;i>index;i--){
       arr->a[i] = arr->a[i-1];
-  }
+  }//an empty space will appear
   arr->a[index] = y;
   arr->length++;
     }
